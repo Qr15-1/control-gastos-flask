@@ -25,20 +25,21 @@
         <main>
             <div class="forms-container">
                 <!-- Formulario para INGRESAR dinero -->
-                <form action="/transaccion" method="post" class="form-ingreso">
-                    <h3>Ingresar Dinero</h3>
-                    <input type="number" name="monto" step="0.01" required>
-                    <input type="hidden" name="tipo" value="ingreso">
-                    <button type="submit">Añadir Ingreso</button>
-                </form>
+                <!-- Formulario para INGRESAR dinero -->
+<form action="/transaccion" method="post" class="form-ingreso">
+    <h3>Ingresar Dinero</h3>
+    <input type="number" name="monto" step="0.01" required> <!-- <-- SIN 'placeholder' -->
+    <input type="hidden" name="tipo" value="ingreso">
+    <button type="submit">Añadir Ingreso</button>
+</form>
 
-                <!-- Formulario para RETIRAR dinero -->
-                <form action="/transaccion" method="post" class="form-retiro">
-                    <h3>Retirar Dinero</h3>
-                    <input type="number" name="monto"  step="0.01" required>
-                    <input type="hidden" name="tipo" value="retiro">
-                    <button type="submit">Confirmar Retiro</button>
-                </form>
+<!-- Formulario para RETIRAR dinero -->
+<form action="/transaccion" method="post" class="form-retiro">
+    <h3>Retirar Dinero</h3>
+    <input type="number" name="monto" step="0.01" required> <!-- <-- SIN 'placeholder' -->
+    <input type="hidden" name="tipo" value="retiro">
+    <button type="submit">Confirmar Retiro</button>
+</form>
             </div>
 
             <section class="historial">
