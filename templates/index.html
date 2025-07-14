@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Control de Cuenta (Datos Fijos)</title>
+    <title>Control de Cuenta</title>
     <!-- Enlazamos nuestra hoja de estilos CSS -->
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,7 +14,7 @@
 
     <div class="container">
         <header>
-            <h1>Control de Dinero (Datos en Código)</h1>
+            <h1>Control de Dinero</h1>
             <div class="balance">
                 <h2>Saldo Actual</h2>
                 <p>${{ '%.2f'|format(balance) }}</p>
