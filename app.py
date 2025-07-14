@@ -10,7 +10,7 @@ app = Flask(__name__)
 # Cada vez que modifiques esta lista y guardes el archivo,
 # el servidor de Flask (en modo debug) se recargará y mostrará los nuevos valores.
 
-INITIAL_BALANCE = 1000.00 # Puedes cambiar este valor inicial
+INITIAL_BALANCE = 220.00 # Puedes cambiar este valor inicial
 
 # Lista de transacciones "predefinidas".
 # Aquí es donde agregarías manualmente tus ingresos o retiros.
