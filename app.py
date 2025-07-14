@@ -10,13 +10,13 @@ app = Flask(__name__)
 # Cada vez que modifiques esta lista y guardes el archivo,
 # el servidor de Flask (en modo debug) se recargará y mostrará los nuevos valores.
 
-INITIAL_BALANCE = 220.00 # Puedes cambiar este valor inicial
+INITIAL_BALANCE = 230.00 # Puedes cambiar este valor inicial
 
 # Lista de transacciones "predefinidas".
 # Aquí es donde agregarías manualmente tus ingresos o retiros.
 # La fecha es solo para el historial y puede ser una cadena de texto simple.
 PREDEFINED_TRANSACTIONS = [
-    # {'fecha': '01-01-2024 10:00:00', 'tipo': 'Ingreso', 'monto': 500.00},
+     {'fecha': '10-07-2025 ', 'tipo': 'Retiro', 'monto': 10.00},
     # {'fecha': '05-01-2024 15:30:00', 'tipo': 'Retiro', 'monto': 200.00},
     # {'fecha': '10-01-2024 09:00:00', 'tipo': 'Ingreso', 'monto': 150.00},
     # {'fecha': '15-01-2024 11:45:00', 'tipo': 'Retiro', 'monto': 75.00},
