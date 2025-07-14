@@ -1,0 +1,15 @@
+{
+    "balance": 200.0,
+    "historial": [
+        {
+            "fecha": "27-06-2025 10:11:33",
+            "tipo": "Retiro",
+            "monto": 20.0
+        },
+        {
+            "fecha": "27-06-2025 10:11:27",
+            "tipo": "Ingreso",
+            "monto": 220.0
+        }
+    ]
+}

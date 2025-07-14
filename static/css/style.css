@@ -1,0 +1,82 @@
+/* Estilos generales y fuente bonita */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Encabezado y Saldo */
+header {
+    text-align: center;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: #2c3e50;
+    margin: 0;
+}
+
+.balance h2 {
+    margin: 15px 0 5px;
+    color: #555;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.balance p {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin: 0;
+}
+
+/* Eliminamos los estilos de .forms-container, form, input[type="number"], button, etc. */
+/* Ya que los formularios fueron eliminados del HTML */
+
+/* Historial */
+.historial h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #ecf0f1;
+    color: #34495e;
+    font-weight: 600;
+}
+
+
+.tipo-ingreso, .monto-ingreso {
+    color: #27ae60;
+    font-weight: 600;
+}
+
+.tipo-retiro, .monto-retiro {
+    color: #c0392b;
+    font-weight: 600;
+}
