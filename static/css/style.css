@@ -43,8 +43,21 @@ header h1 {
     margin: 0;
 }
 
-/* Eliminamos los estilos de .forms-container, form, input[type="number"], button, etc. */
-/* Ya que los formularios fueron eliminados del HTML */
+/* Eliminamos los estilos para .forms-container, form, input[type="number"], button,
+   .form-ingreso button, .form-retiro button, ya que los formularios fueron eliminados del HTML. */
+
+/* Estilos para un posible mensaje informativo (si lo descomentas en el HTML) */
+.info-message {
+    background-color: #e0f2f7;
+    border-left: 5px solid #007bff;
+    padding: 15px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    color: #0056b3;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
 
 /* Historial */
 .historial h2 {
@@ -69,7 +82,6 @@ th {
     color: #34495e;
     font-weight: 600;
 }
-
 
 .tipo-ingreso, .monto-ingreso {
     color: #27ae60;

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Control de Cuenta Estático</title>
+    <title>Control de Cuenta (Datos Fijos)</title>
     <!-- Enlazamos nuestra hoja de estilos CSS -->
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,7 +14,7 @@
 
     <div class="container">
         <header>
-            <h1>Control de Dinero </h1>
+            <h1>Control de Dinero (Datos en Código)</h1>
             <div class="balance">
                 <h2>Saldo Actual</h2>
                 <p>${{ '%.2f'|format(balance) }}</p>
@@ -22,24 +22,15 @@
         </header>
 
         <main>
-            <!-- Eliminamos los formularios de ingreso y retiro -->
-            <!-- <div class="forms-container"> -->
-                <!-- Formulario para INGRESAR dinero (ELIMINADO) -->
-                <!-- <form action="/transaccion" method="post" class="form-ingreso">
-                    <h3>Ingresar Dinero</h3>
-                    <input type="number" name="monto" step="0.01" required> 
-                    <input type="hidden" name="tipo" value="ingreso">
-                    <button type="submit">Añadir Ingreso</button>
-                </form> -->
-
-                <!-- Formulario para RETIRAR dinero (ELIMINADO) -->
-                <!-- <form action="/transaccion" method="post" class="form-retiro">
-                    <h3>Retirar Dinero</h3>
-                    <input type="number" name="monto" step="0.01" required> 
-                    <input type="hidden" name="tipo" value="retiro">
-                    <button type="submit">Confirmar Retiro</button>
-                </form> -->
-            <!-- </div> -->
+            <!-- Los formularios de ingreso y retiro han sido eliminados,
+                 ya que la aplicación ahora muestra datos definidos directamente en 'app.py'.
+                 Para modificar el saldo o el historial, edita 'app.py'. -->
+            <!-- Puedes añadir un mensaje aquí si quieres explicarlo en la interfaz:
+            <div class="info-message">
+                <p>Este control de cuenta muestra un balance e historial definidos directamente en el código Python (app.py).</p>
+                <p>Para modificar los datos, edita la sección `PREDEFINED_TRANSACTIONS` en `app.py` y guarda el archivo.</p>
+            </div>
+            -->
 
             <section class="historial">
                 <h2>Historial de Movimientos</h2>
