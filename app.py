@@ -17,7 +17,7 @@ INITIAL_BALANCE = 230.00 # Puedes cambiar este valor inicial
 # La fecha es solo para el historial y puede ser una cadena de texto simple.
 PREDEFINED_TRANSACTIONS = [
      {'fecha': '10-07-2025 ', 'tipo': 'Retiro', 'monto': 10.00},
-    # {'fecha': '05-01-2024 15:30:00', 'tipo': 'Retiro', 'monto': 200.00},
+     {'fecha': '13-07-2025 ', 'tipo': 'Retiro', 'monto': 15.00},
     # {'fecha': '10-01-2024 09:00:00', 'tipo': 'Ingreso', 'monto': 150.00},
     # {'fecha': '15-01-2024 11:45:00', 'tipo': 'Retiro', 'monto': 75.00},
     # Puedes añadir más transacciones aquí:
