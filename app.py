@@ -18,9 +18,9 @@ INITIAL_BALANCE = 230.00 # Puedes cambiar este valor inicial
 PREDEFINED_TRANSACTIONS = [
      {'fecha': '10-07-2025 ', 'tipo': 'Retiro', 'monto': 10.00},
      {'fecha': '13-07-2025 ', 'tipo': 'Retiro', 'monto': 15.00},
-    # {'fecha': '10-01-2024 09:00:00', 'tipo': 'Ingreso', 'monto': 150.00},
-    # {'fecha': '15-01-2024 11:45:00', 'tipo': 'Retiro', 'monto': 75.00},
-    # Puedes añadir más transacciones aquí:
+     {'fecha': '13-07-2025 ', 'tipo': 'Retiro', 'monto': 5.00},
+     {'fecha': '13-07-2025 ', 'tipo': 'Retiro', 'monto': 10.00},
+     {'fecha': '13-07-2025 ', 'tipo': 'Retiro', 'monto': 15.00},
     # {'fecha': '20-01-2024 14:00:00', 'tipo': 'Ingreso', 'monto': 300.00},
 ]
 # --- FIN DATOS FIJOS ---
